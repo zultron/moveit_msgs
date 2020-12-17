@@ -1,0 +1,19 @@
+# the source trajectory to re-time
+RobotTrajectory trajectory
+
+# Velocity and acceleration scaling factor for the re-timed trajectory
+float64 velocity_scaling_factor
+float64 acceleration_scaling_factor
+
+# Algorithm to use for the re-timing operation
+string algorithm
+
+# Mandatory name of group to compute the path for
+string group_name
+
+---
+# The computed solution trajectory
+RobotTrajectory trajectory
+
+# The error code of the computation
+MoveItErrorCodes error_code

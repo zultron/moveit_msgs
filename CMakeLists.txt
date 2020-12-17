@@ -87,6 +87,7 @@ RenameRobotStateInWarehouse.srv
 DeleteRobotStateFromWarehouse.srv
 ChangeControlDimensions.srv
 ChangeDriftDimensions.srv
+RetimeTrajectory.srv
 )
 
 set(ACT_FILES
